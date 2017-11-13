@@ -1,0 +1,33 @@
+/* styles for aia*/
+
+table{
+    
+    width: 80%;
+    margin: 2em auto 2em auto;
+    border: 1px solid red;
+       
+}
+
+table.client th {
+    
+    width: 35%;
+    background-color: beige;
+    
+}
+
+table.audience th {
+    
+    background-color: black;
+    color: #fff;
+    width: 33%;
+}
+
+td, th {
+    
+   border: 1px solid red 
+}
+
+
+
+
+

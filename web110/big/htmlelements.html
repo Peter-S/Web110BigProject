@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pete's BIG Website</title>
+        <meta name="description" content="SSC Big web site for Pete "/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <meta name="robots" content="noindex,nofollow"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/big.css"/>
+        <link rel="stylesheet" href="css/nav.css"/>
+    </head>
+    <body>
+        <div class="wrapper">
+        <header>
+    
+        <h1>Pete Soukup's Web Development Examples</h1>
+<nav id="cssmenu">
+  <ul>
+     <li>
+         <a href="../index.html">
+             <span>
+                 <i class="fa fa-fw fa-home"></i> WEB110
+             </span>
+         </a>
+      </li>
+    <li>
+    </li>
+     <li><a href="index.html"><span><i class="fa fa-fw fa-home"></i> Main Page</span></a></li>
+     <li><a href="accessibility.html" class="selected"> <span>Accessibility</span></a></li>
+     <li><a href="htmlelements.html" class="selected"><span>HTML Elements</span></a></li>
+     <li><a href="smo.html"><span>SMO</span></a></li>
+     <li><a href="gallery.html"><span>Image Gallery</span></a></li>
+     <li><a href="#"><span><i class="fa fa-fw fa-bars"></i> Google Tools</span></a>
+        <ul>
+           <li><a href="calendar.html"><span><i class="fa fa-fw fa-calendar"></i> Calendar</span></a></li>
+           <li><a href="map.html"><span><i class="fa fa-fw fa-map-o"></i> Map</span></a></li>
+           <li><a href="seo.html"><span><i class="fa fa-fw fa-video-camera"></i> SEO (YouTube)</span></a></li>
+        </ul>
+     </li>
+     <li><a href="contact.php"><span><i class="fa fa-fw fa-file-text-o"></i> Contact Pete</span></a></li>
+  </ul>
+    </nav>
+</header>
+    
+        <h2>HTML Elements</h2>
+            
+    <table width="100%" border="0">
+         <thead>
+            <tr>
+                <th>Tag</th> <!--1st Col: link to tag page -->
+                <th>Description</th> <!--2nd Column -->
+                <th>Level</th> <!-- 3rd Col: Block or Inline? -->
+                <th>Type</th> <!-- 4th Col: Container or Empty -->
+            </tr>    
+         </thead>
+         <tbody>
+            <tr>
+                <td>
+                 <a href="https://www.w3schools.com/TAGs/tag_comment.asp" target="_blank">
+                 &lt;&#33;--..--&gt;   
+                 </a>
+                </td>
+                <td>An HTML comment. Visible in the source code</td> 
+                <td>n/a</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_doctype.asp" target="_blank">&lt;!DOCTYPE&gt;
+                </a>
+                </td>
+                <td> It is an instruction to the web browser about what version of HTML the page is written in.</td> 
+                <td>n/a</td> 
+                <td>Empty</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_a.asp" target="_blank">&lt;a&gt;</a>
+                </td>
+                <td>Defines a hyperlink, takes you from one place to another</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_article.asp" target="_blank">&lt;article&gt;</a>
+                </td>
+                <td>The article tag specifies independent, self-contained content. Can be distributed independently from the rest of the site.</td> 
+                <td>n/a</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_aside.asp" target="_blank">&lt;aside&gt;</a>
+                </td>
+                <td>Content placed next to related content</td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_b.asp" target="_blank">&lt;b&gt;</a>
+                </td>
+                <td>Used for bold text</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_body.asp" target="_blank">&lt;body&gt;</a>
+                </td>
+                <td>Defines the documents body. </td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_br.asp" target="_blank">&lt;br&gt;</a>
+                </td>
+                <td>Forces a line break.</td> 
+                <td>Inline</td> 
+                <td>Empty</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_dd.asp" target="_blank">&lt;dd&gt;</a>
+                </td>
+                <td>Used to describe a term or name in descpiption list.</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_div.asp" target="_blank">&lt;div&gt;</a>
+                </td>
+                <td>Defines a division or a section, used to group block elements to form them in CSS.</td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_dl.asp" target="_blank">&lt;dl&gt;</a>
+                </td>
+                <td>Description list, used with &lt;dt&gt; &amp;  &lt;dd&gt;</td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_dt.asp" target="_blank">&lt;dt&gt;</a>
+                </td>
+                <td>Defines a term in a description list.</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_em.asp" target="_blank">&lt;em&gt;</a>
+                </td>
+                <td>It renedrs it as emphasized text and is not deprecated. </td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_fieldset.asp" target="_blank">&lt;fieldset&gt;</a>
+                </td>
+                <td>Used to group related elements in a form, used to draw a box around them. </td>
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_figcaption.asp" target="_blank">&lt;figcaption&gt;</a>
+                </td>
+                <td>Defines a caption for a figure element.</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_figure.asp" target="_blank">&lt;figure&gt;</a>
+                </td>
+                <td>Self-contained content such as photo, code, a random monkey and other stuff.</td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_footer.asp" target="_blank">&lt;footer&gt;</a>
+                </td>
+                <td>Defines the footer for the documment</td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_form.asp" target="_blank">&lt;form&gt;</a>
+                </td>
+                <td>Used to create an HTM form for user input.</td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_hn.asp" target="_blank">&lt;h1&gt; to &lt;h6&gt;</a>
+                </td>
+                <td>Heading tags from most important to least important.</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_head.asp" target="_blank">&lt;head&gt;</a>
+                </td>
+                <td>This is the container for all of the head elements in the document</td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_header.asp" target="_blank">&lt;header&gt;</a>
+                </td>
+                <td>Represents container for intro content or nav aids. </td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_iframe.asp" target="_blank">&lt;iframe&gt;</a>
+                </td>
+                <td>Used to frame in another document within the current HTML document.</td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_img.asp" target="_blank">&lt;img&gt;</a>
+                </td>
+                <td>Defines an image on page. </td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_input.asp" target="_blank">&lt;input&gt;</a>
+                </td>
+                <td>Defines user input field</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_label.asp" target="_blank">&lt;label&gt;</a>
+                </td>
+                <td>Defines the label for an input field</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_menu.asp" target="_blank">&lt;li&gt;</a>
+                </td>
+                <td>Defines a list item</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_link.asp" target="_blank">&lt;link&gt;</a>
+                </td>
+                <td>Link to an external source ie CSS file.</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_meta.asp" target="_blank">&lt;meta&gt;</a>
+                </td>
+                <td>Meta elements are typically used to specify page description, keywords, author of the document, last modified, and other metadata. Metadata will not be displayed but will be machine parsable.</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_nav.asp" target="_blank">&lt;nav&gt;</a>
+                </td>
+                <td>Defines a set of navigation links. </td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_ol.asp" target="_blank">&lt;ol&gt;</a>
+                </td>
+                <td>An orrdered list tag number or letters.</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_p.asp" target="_blank">&lt;p&gt;</a>
+                </td>
+                <td>Defines a paragraph</td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_script.asp"  target="_blank">&lt;script&gt;</a>
+                </td>
+                <td>Used to define a clinet siide script.</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_section.asp" target="_blank">&lt;section&gt;</a>
+                </td>
+                <td>Defines sections within the document. </td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_strong.asp" target="_blank">&lt;strong&gt;</a>
+                </td>
+                <td>Strong defines important text.</td> 
+                <td>Inline</td> 
+                <td>Conntainer</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_style.asp" target="_blank">&lt;style&gt;</a>
+                </td>
+                <td>Used to define style within an HTML document.</td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_table.asp" target="_blank">&lt;table&gt;</a>
+                </td>
+                <td><b><i>What I have been working on for the last 2 hours</i></b></td> 
+                <td>Block</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_td.asp" target="_blank">&lt;td&gt;</a>
+                </td>
+                <td>Defines a cell in a table</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_th.asp" target="_blank">&lt;th&gt;</a>
+                </td>
+                <td>Defines a header cell in a table</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_title.asp" target="_blank">&lt;title&gt;</a>
+                </td>
+                <td>Defines the title of the document.</td> 
+                <td>n/a</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_tr.asp" target="_blank">&lt;tr&gt;</a>
+                </td>
+                <td>Defines a table roow in an HTML table.</td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_ul.asp" target="_blank">&lt;ul&gt;</a>
+                </td>
+                <td>Defines an unordered list, &bull;</td> 
+                <td>Block</td> 
+                <td>Contaiiner</td> 
+            </tr>
+            <tr>
+                <td>
+                <a href="https://www.w3schools.com/TAGs/tag_small.asp" target="_blank">&lt;small&gt;</a>
+                </td>
+                <td><small>I had an extra row so I added this </small></td> 
+                <td>Inline</td> 
+                <td>Container</td> 
+            </tr>
+         </tbody>
+            </table>
+            
+        
+        <footer>
+        <small>&copy; 2017, Pete Soukup, All Rights Reserved, <a href="http://validator.w3.org/check?uri=referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">Valid CSS</a></small>  
+        </footer>
+            
+        </div>
+    </body>
+</html>
+
+            
+            
+            
+            
