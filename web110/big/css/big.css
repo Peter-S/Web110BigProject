@@ -19,6 +19,13 @@ a {
     text-decoration:none;
 }
 
+figcaption {
+    background-color:#000;
+    color:#fff;
+    padding:1em 0;
+    text-align: center;
+}
+
 
 footer{
     text-align:center;
@@ -63,7 +70,17 @@ aside{
     float:right;
     min-height:300px;
     }
+div.gallery {
+        width:80%;
+        margin:auto;
+    }
+    
+figure {
+        display:inline-block;
+    }
+
 }
+
 
 @media all and (max-width:699px){
     div.wrapper{
