@@ -19,6 +19,10 @@ a {
     text-decoration:none;
 }
 
+    div.agenda-view.embed-container {
+        display:none;
+}
+
 figcaption {
     background-color:#000;
     color:#fff;
@@ -57,6 +61,8 @@ footer{
         width:100%;
     }
 }*/
+
+
 @media all and (min-width:700px){
 section{
     width:65%;
@@ -88,6 +94,15 @@ figure {
     }
 }
 
+@media all and (max-width:600px) {
+    div.agenda-view.embed-container {
+        display:block;
+    }
+        div.month-view.embed-container {
+        display:none;
+}
+}
+
 thead tr {
     background:yellow;
 }
@@ -109,7 +124,7 @@ th, td {
 
 div.embed-container { 
     position: relative; 
-    padding-bottom: 56.25%; 
+    padding-bottom: 55%; 
     height: 0; 
     overflow: hidden; 
     max-width: 100%; 
