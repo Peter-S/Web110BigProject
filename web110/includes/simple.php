@@ -19,7 +19,7 @@
 #EDIT THE FOLLOWING:
 $toAddress = "lmnopbrunos11@gmail.com";  //place your/your client's email address here
 $toName = "Peter Soukup"; //place your client's name here
-$website = "CreativeNameGoesHere.com";  //place NAME of your client's website here
+$website = "http://edison.seattlecentral.edu/~psoukup/web110/";  //place NAME of your client's website here
 #--------------END CONFIG AREA ------------------------#
 $sendEmail = TRUE; //if true, will send an email, otherwise just show user data.
 $dateFeedback = true; //if true will show date/time with reCAPTCHA error - style a div with class of dateFeedback

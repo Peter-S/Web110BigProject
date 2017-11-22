@@ -12,7 +12,8 @@ div.wrapper{
 }
 
 h1, h2, h3 p {
-    padding:0 16px;  
+    padding:0 16px;
+    font-family: 'Timmana', sans-serif;
 }
 
 a {
@@ -100,7 +101,7 @@ figure {
     }
         div.month-view.embed-container {
         display:none;
-}
+    }
 }
 
 thead tr {
