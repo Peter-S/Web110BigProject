@@ -75,6 +75,7 @@ section{
 aside{
     width:30%;
     float:right;
+    padding-right:2%;
     min-height:300px;
     }
 div.gallery {

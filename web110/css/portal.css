@@ -175,6 +175,7 @@ footer {
     img.tablet {
         width:50%;
         float:left;
+        
     }
     img.desktop, img.phone {
         display:none;
