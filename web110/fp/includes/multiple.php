@@ -18,9 +18,9 @@
  */
 
 #EDIT THE FOLLOWING:
-$toAddress = "yourname@example.com";  //place your/your client's email address here
-$toName = "CLIENT NAME HERE"; //place your client's name here
-$website = "CLIENT WEBSITE NAME HERE";  //place NAME of your client's website here
+$toAddress = "lmnopbrunos11@gmail.com";  //place your/your client's email address here
+$toName = "CaesArts"; //place your client's name here
+$website = "http://www.CaesArts.com";  //place NAME of your client's website here
 #--------------END CONFIG AREA ------------------------#
 $sendEmail = TRUE; //if true, will send an email, otherwise just show user data.
 $dateFeedback = true; //if true will show date/time with reCAPTCHA error - style a div with class of dateFeedback
